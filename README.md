@@ -1,2 +1,2 @@
 ## React - Error Boundary example 
-See at: [https://allanalves23.github.io/error-boundary-example](##%20React%20-%20Error%20Boundary%20example%20%20See%20at:%20https://allanalves23.github.io/error-boundary-example)
+See at: [https://allanalves23.github.io/error-boundary-example](https://allanalves23.github.io/error-boundary-example)
