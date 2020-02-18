@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.841e1274.chunk.css",
-    "main.js": "/static/js/main.408ddb91.chunk.js",
-    "main.js.map": "/static/js/main.408ddb91.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.41d2a060.js",
-    "runtime-main.js.map": "/static/js/runtime-main.41d2a060.js.map",
-    "static/js/2.83e70df1.chunk.js": "/static/js/2.83e70df1.chunk.js",
-    "static/js/2.83e70df1.chunk.js.map": "/static/js/2.83e70df1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3e4f3669f013b99927692ed2f2e9faa6.js": "/precache-manifest.3e4f3669f013b99927692ed2f2e9faa6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.841e1274.chunk.css.map": "/static/css/main.841e1274.chunk.css.map",
-    "static/js/2.83e70df1.chunk.js.LICENSE.txt": "/static/js/2.83e70df1.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/error-boundary-exemple/static/css/main.841e1274.chunk.css",
+    "main.js": "/error-boundary-exemple/static/js/main.408ddb91.chunk.js",
+    "main.js.map": "/error-boundary-exemple/static/js/main.408ddb91.chunk.js.map",
+    "runtime-main.js": "/error-boundary-exemple/static/js/runtime-main.a3d1f0bf.js",
+    "runtime-main.js.map": "/error-boundary-exemple/static/js/runtime-main.a3d1f0bf.js.map",
+    "static/js/2.83e70df1.chunk.js": "/error-boundary-exemple/static/js/2.83e70df1.chunk.js",
+    "static/js/2.83e70df1.chunk.js.map": "/error-boundary-exemple/static/js/2.83e70df1.chunk.js.map",
+    "index.html": "/error-boundary-exemple/index.html",
+    "precache-manifest.f35b6a0e63cb25159feb303731f7c1dd.js": "/error-boundary-exemple/precache-manifest.f35b6a0e63cb25159feb303731f7c1dd.js",
+    "service-worker.js": "/error-boundary-exemple/service-worker.js",
+    "static/css/main.841e1274.chunk.css.map": "/error-boundary-exemple/static/css/main.841e1274.chunk.css.map",
+    "static/js/2.83e70df1.chunk.js.LICENSE.txt": "/error-boundary-exemple/static/js/2.83e70df1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/error-boundary-exemple/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.41d2a060.js",
+    "static/js/runtime-main.a3d1f0bf.js",
     "static/js/2.83e70df1.chunk.js",
     "static/css/main.841e1274.chunk.css",
     "static/js/main.408ddb91.chunk.js"
