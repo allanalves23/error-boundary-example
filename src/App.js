@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 function App() {
+
+  const [error, setError] = useState(false)
+
+  if(error) throw 'A simulated error in JS =D'
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Error Boundaries Example!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button className="App-button" onClick={() => setError(true)}>
+          Dispatch JS error
+        </button>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -24,8 +24,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-button {
+  background-color: #61dafb;
+  border-color: #2596b6;
+  padding: 15px;
+  border-radius: 8.5px;
+  font-size: large;
+  font-weight: 550;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
