@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/error-boundary-example/precache-manifest.7319c40943704869f0ecf1dd9fc68e3b.js"
+  "/error-boundary-example/precache-manifest.75df8b27b4b88eb9ab3f630360cbc353.js"
 );
 
 self.addEventListener('message', (event) => {
