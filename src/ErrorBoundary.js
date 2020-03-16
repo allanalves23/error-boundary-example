@@ -18,7 +18,7 @@ class ErrorBoundary extends Component {
     return this.state.error ? (
       <div className="Error-area">
         <h1>Ops, an unexpected problem occurred :(</h1>
-        <a href="/">Reload page</a>
+        <a href="/error-boundary-example/">Reload page</a>
         <details>
           <div className="Error-stack">
             <h2> Error: {this.state.msg} </h2>
