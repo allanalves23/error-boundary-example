@@ -1,32 +1,35 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class ErrorBoundary extends Component {
-    constructor(props) {
-        super(props)
-        this.state = { error: false, msg: '', stack: null }
-    }
+  constructor(props) {
+    super(props);
+    this.state = { error: false, msg: "", stack: null };
+  }
 
-    static getDerivedStateFromError(){
-        return { error : true }
-    }
+  static getDerivedStateFromError() {
+    return { error: true };
+  }
 
-    componentDidCatch(msg, stack){
-        this.setState({ msg, stack })
-    }
+  componentDidCatch(msg, stack) {
+    this.setState({ msg, stack });
+  }
 
-    render() { 
-        return this.state.error ? (
-            <div className="Error-area">
-                <h1>Ops, an unexpected problem occurred :(</h1>
-                <details>
-                    <div className="Error-stack">
-                        <h2> Error: {this.state.msg} </h2>
-                        { this.state.stack && this.state.stack.componentStack }
-                    </div>
-                </details>
-            </div>
-        ) : this.props.children
-    }
+  render() {
+    return this.state.error ? (
+      <div className="Error-area">
+        <h1>Ops, an unexpected problem occurred :(</h1>
+        <a href="/">Reload page</a>
+        <details>
+          <div className="Error-stack">
+            <h2> Error: {this.state.msg} </h2>
+            {this.state.stack && this.state.stack.componentStack}
+          </div>
+        </details>
+      </div>
+    ) : (
+      this.props.children
+    );
+  }
 }
 
-export default ErrorBoundary
+export default ErrorBoundary;
